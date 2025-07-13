@@ -8,7 +8,16 @@
         android:id="@+id/btn_test_notification"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send Test Notification"
+        android:text="@string/send_test_notification"
         android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_allow_notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/allow_notifications"
+        android:layout_below="@id/btn_test_notification"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
 
 </RelativeLayout>
